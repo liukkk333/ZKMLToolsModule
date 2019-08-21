@@ -1,0 +1,6 @@
+framework module ZKMLToolsModule {
+  umbrella header "ZKMLToolsModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A98D33D166773731B748CAA35E575EA9 /* ZKMLPrefixHeaderModule */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D3650DFB5FEDC025FD9B92BCC9E02A36 /* Build configuration list for PBXAggregateTarget "ZKMLPrefixHeaderModule" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ZKMLPrefixHeaderModule;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02E2954BD351E7B167D8F60B13208DAF /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB4BA2C25570B6044B080A4BDFB73C /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02E414813CAD555CA9BBEAC6C00A73FF /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 338D622CCDF1DC5FA103873DE81DF4C0 /* GTMBase64.m */; };
+		03034D38BD96B5BB8E401745DB1A562D /* YFOrderAddressDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E969AF60D906425DBED888006509550E /* YFOrderAddressDTOModel.m */; };
+		0557B180FC511841F73C790B494870A3 /* YFTimeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CDDEB4915B12296BD315FD69558E7C /* YFTimeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1071D84B6431759A11FAEBAAE29E3F32 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C3BDB7F6D3C15BF34AB719F4EE3A14 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1535199543C0BA4DBF7CFB5D2C2A7703 /* YFApplyUserDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E825D12200483B943A5AEA76D9C735 /* YFApplyUserDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15B2C74604DEAD292C14BAF87877007B /* Pods-ZKMLToolsModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A24EE191772868A47B9BF2B1896452F5 /* Pods-ZKMLToolsModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		191126E8D5A1E26339D2B767EF3AE197 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = D112202CFE600FB7EA8E33A215AFCEDD /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21DBBC9C6B4F7D63AED187989F1FB2E1 /* YFApplyCarInfoDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4078750FA9DE7E678DEDD3FCDC5A9D55 /* YFApplyCarInfoDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A3D3037A05E7E99AFF098D11427775 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2170EB6A2D594A0823F01E32CE25506B /* JSONKeyMapper.m */; };
+		27095F34847B5549A001FC61A44F9DA9 /* YFDriverTaskInfoVO.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FDFCD361546BC26F71E21D107960A /* YFDriverTaskInfoVO.m */; };
+		29EABF840B3EC57AE516DAD71810EECC /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2E792303AF6C20F6B2C7C7FE728D81 /* JSONModel.framework */; };
+		2A52A81BE47DF80FDBBEC3F3B1A19DCB /* YFDownOrderAddressDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1C7AD94362035EFCB08B1D81F37 /* YFDownOrderAddressDTOModel.m */; };
+		2AA2726CB00254B808EED5137FB3DFAD /* YFTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D15A851E7344DCA4FE1DF0F5F3AFE3 /* YFTimeManager.m */; };
+		2D59C15D4BAEE39624E7A904CC4F56E6 /* YFUpOrderAddressDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B9E4B6AC0FAD1EA51DADC94452E1AF /* YFUpOrderAddressDTOModel.m */; };
+		2DE573922AFED33F4B1159E1867D15EE /* YFOrderAddressDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6E82386214256808B449A9FD73F287 /* YFOrderAddressDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E4533725B524583C592F4577BA126DF /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9E8B27F7482437D63E5B82C762BEF /* Global.m */; };
+		30DF77E53D2E837133265614EC8BEDA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B0838B270F63C8F91B6F29B71E5591 /* Foundation.framework */; };
+		3AEA2F22B88CD78E671F25B60DB66ADA /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E919A46A5FD16C7CD367FD6685FC5F2 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E0A57590A57E2CC07BD98B200DBB505 /* ChangeTypeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AD91A36C256A03BBA3413718FAD3F0D1 /* ChangeTypeTool.m */; };
+		4007C1793F1E3B2F83CE7D6A6B67C8D8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 930266BF034058C1D59BD1B262092A8A /* MBProgressHUD.m */; };
+		42F28843BD225DDC9A02E6D42040E284 /* YFDownOrderAddressDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 39FDF88D5854957BFEAC1684AB5052AA /* YFDownOrderAddressDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44AF9949AA9446264A99BF00B12BF966 /* HSUpdateApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EEE8F815834FDA1B466B1CE014BD2B /* HSUpdateApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4578C560B2F506160A02DB33C80A4628 /* YFAttributeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F769FEC72F1681482E8E8FC8B3B51A4A /* YFAttributeManager.m */; };
+		45F1EE51BE7654A81BD757106ABAA570 /* Pods-ZKMLToolsModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2FC5A1F6440B11ED1BAA4518449DD9C /* Pods-ZKMLToolsModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4863089DD0C0604D7FF29CBCE4F97BBD /* YFOrderCarDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5509ACA9DF4AF9C530B3F5BE04B0D962 /* YFOrderCarDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA1D89C8517BC23262512F1F6E9DAAB /* YFOrderBaseDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0FBBDE1CD3327D9BBF0D90ECC7BACE /* YFOrderBaseDTOModel.m */; };
+		4CD8C91E8E7CAD92DA152B2573D85B50 /* AES_SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EB441B6290AFCF8E10BA65D01436C /* AES_SecurityUtil.m */; };
+		4D572AEE6A1EAF1B222F80E877ABC182 /* YFRemindManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 62507B171DB42B9DC5E2078A2F09C30E /* YFRemindManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50507AAE8820D243FB0FE8B109EF1F75 /* YFDriverTaskInfoVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 566DFDFFA40E3AD3B198E6291A7DB0AE /* YFDriverTaskInfoVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55F9632493ABEEB0EE865649974BD95B /* ChangeTypeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 644688EB223897EB6DFDC932D48E89F8 /* ChangeTypeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63472105BF5E42A970A44FC22F89DD42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B0838B270F63C8F91B6F29B71E5591 /* Foundation.framework */; };
+		65E0EB983972C82271BF74FF69531FC0 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8BFEB74C0AA2C94033357269395E6B /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FE60AA194AF58505CC8296B95802D0 /* YFRemindManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C779DD336A9AC73DFEE946532D817B52 /* YFRemindManager.m */; };
+		66AD0825CD6A8DC31BD9647847157C2F /* ZKWeekdayFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5087E3CCAA187528ABA6026E4EC83 /* ZKWeekdayFunc.m */; };
+		66E3CE5EE6B2E864B4059ECB80F00878 /* YFAttributeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4854639324200DBAE6350F3EE05EF1B /* YFAttributeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68F42E22BCDAF250B0AC05944F489F7A /* YFApplyUserDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719EE7822EBF60F42EDB8D3FE9A7704 /* YFApplyUserDTOModel.m */; };
+		6A5AA15C119B40276D77F83CCF54218B /* YFUpOrderAddressDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F06A3C91BD2DDECBC4A71628F1EC2B8 /* YFUpOrderAddressDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A8790BA487061D9AE8F3518B6B8CBF8 /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = 801A7960212E264D5BC028737C03F463 /* Global.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A96759E75FB4443B56CB892364DF0A1 /* ZKMLToolsModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC12CEEA9795C112833A11306EF0D43 /* ZKMLToolsModule-dummy.m */; };
+		6CD46E3DD3CE64457A221BCEE1BD34D4 /* YFViaAddressDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C68A82F57592DE67EF5A17786BE346 /* YFViaAddressDTOModel.m */; };
+		6D4618B8A39D4E54D9929781BAFE2A9D /* YFApplyDriverInfoDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 529856FE811C0E58D07188188CBE1F50 /* YFApplyDriverInfoDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FCDE0D44543F4DABF90A88E056D8199 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 599D6F5727BBCB3683FE587B1F195A9A /* JSONModel.m */; };
+		73AEAB40FA48842688424BCB621622C8 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0500EDDB5A5A909D87349B2214CF14AF /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75C939C90205A780AB001C84A0B90C24 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8664EABD37C74B5206D45A53D219575E /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763036F363711DB79712FDBBB72707E7 /* SGQRCodeGenerateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FEAB382F907D6CAE829428A1AEB9626 /* SGQRCodeGenerateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76BEC8D30A32B429067D22241EA9303C /* GHConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B225E9D38FE50111BF883795F0A261 /* GHConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D32737B8798E2519E6E3A90AFCE37E7 /* YFAudioTool.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDD8D48D1586C217C6238397E443E45 /* YFAudioTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FABAD0F7C09605966351F4BF500D889 /* GHConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 39517450DF1C57F58CDF940F4B8133CC /* GHConsole.m */; };
+		812125F3AD4BFD421C555A286D1CFB9C /* CountDownServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 95253AC2D69FC0DA6C5E153CFE0F0345 /* CountDownServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A8BF1A0B216A19675827EA0315C1C5 /* BMDragCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D19CFC7B197A73905D5205181AAD77 /* BMDragCellCollectionView.m */; };
+		86E9CB19574A9A4DB01B761FC02D78C2 /* YFCarBaseDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 594DAC0DA4673BE1FC25C6A4CCBC6641 /* YFCarBaseDTOModel.m */; };
+		888DEC1670B54DBD3990CE649B518BAA /* YFUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF0534BBE089C2CFA6FCC7F06043FD4 /* YFUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		902F5B7D2F0FF95D517DD287479B8254 /* SGQRCodeGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA9CAFFEE227DF0B968AEC77781C64B /* SGQRCodeGenerateManager.m */; };
+		A52DD788A5384665F425D6A2C7493AD0 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CD14D8CEC08A28C1CBE8CB9C980C5 /* JSONModelError.m */; };
+		AD204D9D3B57EF8201AC1E98073E1119 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BF131E23257489D932A66079C7C1E014 /* ReplaceMe.m */; };
+		AE18DBB4DA5689A4EAB665913BE291DF /* YFOrderBaseDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC8F16FB163FB070095A2D1ED52874B /* YFOrderBaseDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B01B11588AA6325117933D9957421855 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A80C56EBEE60D4000B47817CDEDB17 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B053DE2D40435BC7A9C73B6021ECE40F /* YFApplyDriverInfoDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6D5C46EC1B75E3C1D432438A4DDC79 /* YFApplyDriverInfoDTOModel.m */; };
+		B0BA1C31A2A3AB25BC95A4B2DE0A7B5D /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FA1075B63B6165A500592804DF6C5D /* JSONValueTransformer.m */; };
+		B4C7BC969594EB3E9323674B7FF7C66E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE7BBCCDB2566082A13D8347DED687 /* JSONHTTPClient.m */; };
+		B645E91B6EC8C1EE323A77DD0785C430 /* YFApplyBaseDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE9A9D13F727F8F673AF45FEDBE396E /* YFApplyBaseDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA0A7F03FEBAE896FEDC251936828192 /* YFApplyBaseDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA914F974C67EFE41CFB8CF2CB4AAF73 /* YFApplyBaseDTOModel.m */; };
+		BE4A54D33D8A28FB6420601C675F3C67 /* CountDownServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B34D55A306D005E3D529503130AA07 /* CountDownServer.m */; };
+		C25BD96E691172D62B98B2F5F8D7F0C7 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = EF06D9BAEB242AD67A07760A276AB024 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2CFD5FFE11FF289D833C66FACA8A696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B0838B270F63C8F91B6F29B71E5591 /* Foundation.framework */; };
+		C3BB5805D6C0C60912DE977DF74B6009 /* BMDragCellCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91ADEDE1AE62255A203AE8465CDBAB50 /* BMDragCellCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C64C8DE746D376EEA160794275302677 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C7D76237F7B9D21D16CD192F574B6D /* JSONModelClassProperty.m */; };
+		C65CBBF120A2DD097498BFA38119D466 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA1C8774F402638A45D5CE827C063B0 /* JSONAPI.m */; };
+		C7850AB3F7B5FDCA4F1F47F1EC205276 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A5D26B8199AE0436B7AED2F7A37056 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE5D3DCAA82B7AD628A61791E7ED61B8 /* Pods-ZKMLToolsModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E77BF7DC78975E592A84C143F78B1 /* Pods-ZKMLToolsModule_Example-dummy.m */; };
+		CE7615DAD68A93F47E5D3EFBA64CD967 /* ZKMLToolsModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB11EBACEC8993502531D643706C137 /* ZKMLToolsModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD38BDDB48F8D35B9A858E957A933A2 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = E538324C53526EF0F2E24177D9A783FB /* JSONModel+networking.m */; };
+		D2C0548F20F65BBE639F453F817DBE89 /* YFViaAddressDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7B17C3B36B90A6EE72E5FC95C802A5 /* YFViaAddressDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D358BCEB69D2E10B9BC6504C93D7D14C /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAA5D2EAFF8AB8DE67E205F79DE28B3 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D42BB54C4E341A18B1CFF0E80DDE43E2 /* Pods-ZKMLToolsModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B2C77CC3D7361BBF49C45F9CDA98A1 /* Pods-ZKMLToolsModule_Tests-dummy.m */; };
+		D4C427DF283B856C0CA01F9E489C3A64 /* YFCarBaseDTOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F60C70C48ABB6E8E45C36A7F16BE252 /* YFCarBaseDTOModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFF8D80125C062F6646E6EE798E6ABA3 /* JSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 787FF4E1F4ACD865C47F047A1346B133 /* JSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3886BA871A93B03E984D8BD7823D947 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D1816E164830C4B38B8244795FFA9C /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E762B33F5B5D95A3BA70BB65C6C78F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B0838B270F63C8F91B6F29B71E5591 /* Foundation.framework */; };
+		EF54209C7B8D5179292BE4DDD71A8243 /* YFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2200A6E9C6CA076C3EC8611C3B3890DE /* YFUtility.m */; };
+		F0A91F1C0618D6A95F14F7CF5B53F220 /* YFAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C210E7647838AC2DD2577DA090C567E6 /* YFAudioTool.m */; };
+		F442593E37B8F49398FDB1974EDF3FD6 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE8A5A69D54745A6F85E3441DAD0610 /* JSONModel-dummy.m */; };
+		F58223165EAC211E595D986DE751CC4E /* ZKWeekdayFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDF3FEF53E5DBAF1B3CD848E13E6971 /* ZKWeekdayFunc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8A49CE8F36A5389B4D995880691BD88 /* AES_SecurityUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 09788D0896C35E3136BAC55669FB3A70 /* AES_SecurityUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F95CCE1427C9F0616F3D6F94D1DF33AB /* HSUpdateApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CEA42D479A7B69146C794BCFF64FD7 /* HSUpdateApp.m */; };
+		FB2DBE967AC09D42C619BA770358F7B7 /* YFOrderCarDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 995D39131401C836B7ABA92D8C2367DD /* YFOrderCarDTOModel.m */; };
+		FF85F6EE05FCF20F085F447D9E090934 /* YFApplyCarInfoDTOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08484B18019A022484BBEB7C001FC101 /* YFApplyCarInfoDTOModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0129DC0EA48C63DAACF0EF7832826658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98D33D166773731B748CAA35E575EA9;
+			remoteInfo = ZKMLPrefixHeaderModule;
+		};
+		666C6A627C290246ED3D1C81FF7A2C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		758D89F43F4E6DD8E0EC4CCF0A2A4EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EE7658BEC00EAD9EEC4F7C086DAA15;
+			remoteInfo = ZKMLToolsModule;
+		};
+		A022FB24E1170EE1C4E1E36C75D8E1C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98D33D166773731B748CAA35E575EA9;
+			remoteInfo = ZKMLPrefixHeaderModule;
+		};
+		DE892300859F71B339AB6F0CB6B5AFA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 039D3BE178F818D35BAE56C0125877CA;
+			remoteInfo = "Pods-ZKMLToolsModule_Example";
+		};
+		E77C2C80DAB372FDF94C482487DDD87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B4284E40E1EA84EAF111F0817E11D1 /* Pods-ZKMLToolsModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKMLToolsModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		03EEE8F815834FDA1B466B1CE014BD2B /* HSUpdateApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSUpdateApp.h; sourceTree = "<group>"; };
+		0500EDDB5A5A909D87349B2214CF14AF /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		050734A69BD09884F9814535BA25E2A1 /* ZKMLToolsModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZKMLToolsModule.modulemap; sourceTree = "<group>"; };
+		052E77BF7DC78975E592A84C143F78B1 /* Pods-ZKMLToolsModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZKMLToolsModule_Example-dummy.m"; sourceTree = "<group>"; };
+		08484B18019A022484BBEB7C001FC101 /* YFApplyCarInfoDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFApplyCarInfoDTOModel.m; sourceTree = "<group>"; };
+		09788D0896C35E3136BAC55669FB3A70 /* AES_SecurityUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AES_SecurityUtil.h; sourceTree = "<group>"; };
+		10A5D26B8199AE0436B7AED2F7A37056 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		132E203E2105BFB190496B9F7146BEE9 /* Pods-ZKMLToolsModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKMLToolsModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		16C68A82F57592DE67EF5A17786BE346 /* YFViaAddressDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFViaAddressDTOModel.m; sourceTree = "<group>"; };
+		1DC9E8B27F7482437D63E5B82C762BEF /* Global.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		2170EB6A2D594A0823F01E32CE25506B /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		2200A6E9C6CA076C3EC8611C3B3890DE /* YFUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFUtility.m; sourceTree = "<group>"; };
+		2523490488A4936575B51631587EB9C9 /* GongWuInterfaceHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GongWuInterfaceHeader.h; path = ZKMLPrefixHeaderModule/Classes/GongWuInterfaceHeader.h; sourceTree = "<group>"; };
+		25C7D76237F7B9D21D16CD192F574B6D /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		273854340F79AF1C51F08E92BEA3A795 /* Pods-ZKMLToolsModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZKMLToolsModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27CEA42D479A7B69146C794BCFF64FD7 /* HSUpdateApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSUpdateApp.m; sourceTree = "<group>"; };
+		2A7B17C3B36B90A6EE72E5FC95C802A5 /* YFViaAddressDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFViaAddressDTOModel.h; sourceTree = "<group>"; };
+		2E919A46A5FD16C7CD367FD6685FC5F2 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		2F06A3C91BD2DDECBC4A71628F1EC2B8 /* YFUpOrderAddressDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFUpOrderAddressDTOModel.h; sourceTree = "<group>"; };
+		2F1B264E94F8A6DFEFD89920EF2D09DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3302A41DD9B565F67B5A44244242E898 /* ZKMLToolsModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZKMLToolsModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		338D622CCDF1DC5FA103873DE81DF4C0 /* GTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		39517450DF1C57F58CDF940F4B8133CC /* GHConsole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GHConsole.m; sourceTree = "<group>"; };
+		39FDF88D5854957BFEAC1684AB5052AA /* YFDownOrderAddressDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFDownOrderAddressDTOModel.h; sourceTree = "<group>"; };
+		3B2E792303AF6C20F6B2C7C7FE728D81 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE9A9D13F727F8F673AF45FEDBE396E /* YFApplyBaseDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFApplyBaseDTOModel.h; sourceTree = "<group>"; };
+		4078750FA9DE7E678DEDD3FCDC5A9D55 /* YFApplyCarInfoDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFApplyCarInfoDTOModel.h; sourceTree = "<group>"; };
+		42134494696D92E7517C51C43A94A4BC /* SuperviseInterfaceHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SuperviseInterfaceHeader.h; path = ZKMLPrefixHeaderModule/Classes/SuperviseInterfaceHeader.h; sourceTree = "<group>"; };
+		43FD53698B40D56DE0981B6BA60DBB48 /* ZKMLToolsModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKMLToolsModule-Info.plist"; sourceTree = "<group>"; };
+		488C92477B6F8F2C3E6C85A0EC40AE06 /* Pods-ZKMLToolsModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZKMLToolsModule_Tests.modulemap"; sourceTree = "<group>"; };
+		4FF0534BBE089C2CFA6FCC7F06043FD4 /* YFUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFUtility.h; sourceTree = "<group>"; };
+		529856FE811C0E58D07188188CBE1F50 /* YFApplyDriverInfoDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFApplyDriverInfoDTOModel.h; sourceTree = "<group>"; };
+		5509ACA9DF4AF9C530B3F5BE04B0D962 /* YFOrderCarDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFOrderCarDTOModel.h; sourceTree = "<group>"; };
+		5577AB5E00D5E4F2DB466DB96912B5FC /* Pods-ZKMLToolsModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKMLToolsModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		55E5087E3CCAA187528ABA6026E4EC83 /* ZKWeekdayFunc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZKWeekdayFunc.m; sourceTree = "<group>"; };
+		566DFDFFA40E3AD3B198E6291A7DB0AE /* YFDriverTaskInfoVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFDriverTaskInfoVO.h; sourceTree = "<group>"; };
+		57CB4BA2C25570B6044B080A4BDFB73C /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		5864B9EE5CCC689E06610B50F667B61F /* IPhoneX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPhoneX.h; path = ZKMLPrefixHeaderModule/Classes/IPhoneX.h; sourceTree = "<group>"; };
+		58869DD444B5FA15F67B06FAF8FDF3EE /* ZKMLPrefixHeaderModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKMLPrefixHeaderModule.xcconfig; sourceTree = "<group>"; };
+		594DAC0DA4673BE1FC25C6A4CCBC6641 /* YFCarBaseDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFCarBaseDTOModel.m; sourceTree = "<group>"; };
+		599D6F5727BBCB3683FE587B1F195A9A /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		5F60C70C48ABB6E8E45C36A7F16BE252 /* YFCarBaseDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFCarBaseDTOModel.h; sourceTree = "<group>"; };
+		6105FCD9FA18F9A635FD8FF588691085 /* Confingure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Confingure.h; path = ZKMLPrefixHeaderModule/Classes/Confingure.h; sourceTree = "<group>"; };
+		62507B171DB42B9DC5E2078A2F09C30E /* YFRemindManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFRemindManager.h; sourceTree = "<group>"; };
+		644688EB223897EB6DFDC932D48E89F8 /* ChangeTypeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChangeTypeTool.h; sourceTree = "<group>"; };
+		65B225E9D38FE50111BF883795F0A261 /* GHConsole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GHConsole.h; sourceTree = "<group>"; };
+		68D19CFC7B197A73905D5205181AAD77 /* BMDragCellCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BMDragCellCollectionView.m; sourceTree = "<group>"; };
+		6A8BFEB74C0AA2C94033357269395E6B /* GTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		6DC12CEEA9795C112833A11306EF0D43 /* ZKMLToolsModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKMLToolsModule-dummy.m"; sourceTree = "<group>"; };
+		6E381A1EDFF74910786EA99CDF78AF47 /* Pods-ZKMLToolsModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZKMLToolsModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73CDDEB4915B12296BD315FD69558E7C /* YFTimeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFTimeManager.h; sourceTree = "<group>"; };
+		73D15A851E7344DCA4FE1DF0F5F3AFE3 /* YFTimeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFTimeManager.m; sourceTree = "<group>"; };
+		787FF4E1F4ACD865C47F047A1346B133 /* JSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-umbrella.h"; sourceTree = "<group>"; };
+		7AB11EBACEC8993502531D643706C137 /* ZKMLToolsModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKMLToolsModule-umbrella.h"; sourceTree = "<group>"; };
+		7D0FBBDE1CD3327D9BBF0D90ECC7BACE /* YFOrderBaseDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFOrderBaseDTOModel.m; sourceTree = "<group>"; };
+		7FEAB382F907D6CAE829428A1AEB9626 /* SGQRCodeGenerateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGQRCodeGenerateManager.h; sourceTree = "<group>"; };
+		801A7960212E264D5BC028737C03F463 /* Global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		84B34D55A306D005E3D529503130AA07 /* CountDownServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountDownServer.m; sourceTree = "<group>"; };
+		85FA1075B63B6165A500592804DF6C5D /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		8631B1769EA6A232E9F5B73F06D72C86 /* Pods-ZKMLToolsModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZKMLToolsModule_Example.modulemap"; sourceTree = "<group>"; };
+		8664EABD37C74B5206D45A53D219575E /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		8AAA5D2EAFF8AB8DE67E205F79DE28B3 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		8FAF20969D27CDD406CCD317B66EC689 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		90E825D12200483B943A5AEA76D9C735 /* YFApplyUserDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFApplyUserDTOModel.h; sourceTree = "<group>"; };
+		91ADEDE1AE62255A203AE8465CDBAB50 /* BMDragCellCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BMDragCellCollectionView.h; sourceTree = "<group>"; };
+		91F831A1A826BDADA4000D5D000FB7AD /* Pods_ZKMLToolsModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZKMLToolsModule_Tests.framework; path = "Pods-ZKMLToolsModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BE7BBCCDB2566082A13D8347DED687 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		930266BF034058C1D59BD1B262092A8A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		95253AC2D69FC0DA6C5E153CFE0F0345 /* CountDownServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountDownServer.h; sourceTree = "<group>"; };
+		9719EE7822EBF60F42EDB8D3FE9A7704 /* YFApplyUserDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFApplyUserDTOModel.m; sourceTree = "<group>"; };
+		995D39131401C836B7ABA92D8C2367DD /* YFOrderCarDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFOrderCarDTOModel.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0FA9A4743E84306FF927FCC5F44FD8E /* Pods-ZKMLToolsModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKMLToolsModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A21AEC98D7637998F447EEAB201A9CE5 /* Pods-ZKMLToolsModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKMLToolsModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		A24EE191772868A47B9BF2B1896452F5 /* Pods-ZKMLToolsModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKMLToolsModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A5110E085A1C57C8D247715A8D469E48 /* JSONModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSONModel-Info.plist"; sourceTree = "<group>"; };
+		AA6D5C46EC1B75E3C1D432438A4DDC79 /* YFApplyDriverInfoDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFApplyDriverInfoDTOModel.m; sourceTree = "<group>"; };
+		AD91A36C256A03BBA3413718FAD3F0D1 /* ChangeTypeTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChangeTypeTool.m; sourceTree = "<group>"; };
+		ADC8F16FB163FB070095A2D1ED52874B /* YFOrderBaseDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFOrderBaseDTOModel.h; sourceTree = "<group>"; };
+		B0C3BDB7F6D3C15BF34AB719F4EE3A14 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		B3DA5F2FDEA7A817E831BDB9165E3526 /* CommonPrefixHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonPrefixHeader.h; path = ZKMLPrefixHeaderModule/Classes/CommonPrefixHeader.h; sourceTree = "<group>"; };
+		B5A80C56EBEE60D4000B47817CDEDB17 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BA914F974C67EFE41CFB8CF2CB4AAF73 /* YFApplyBaseDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFApplyBaseDTOModel.m; sourceTree = "<group>"; };
+		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFC96AB590B54F7ED08C2870C486947 /* ZKMLToolsModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKMLToolsModule.xcconfig; sourceTree = "<group>"; };
+		BDDD8D48D1586C217C6238397E443E45 /* YFAudioTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFAudioTool.h; sourceTree = "<group>"; };
+		BE295CD9B2B47E30F0FA49E19F970CF3 /* Pods-ZKMLToolsModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKMLToolsModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF131E23257489D932A66079C7C1E014 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZKMLToolsModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C14EB441B6290AFCF8E10BA65D01436C /* AES_SecurityUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AES_SecurityUtil.m; sourceTree = "<group>"; };
+		C1DF5E220B00C7D3A410FBD48D221DE7 /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		C210E7647838AC2DD2577DA090C567E6 /* YFAudioTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFAudioTool.m; sourceTree = "<group>"; };
+		C2FC5A1F6440B11ED1BAA4518449DD9C /* Pods-ZKMLToolsModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKMLToolsModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		C4854639324200DBAE6350F3EE05EF1B /* YFAttributeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFAttributeManager.h; sourceTree = "<group>"; };
+		C581EF7350E2D2B270148AF69959E579 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		C6B2C77CC3D7361BBF49C45F9CDA98A1 /* Pods-ZKMLToolsModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZKMLToolsModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		C779DD336A9AC73DFEE946532D817B52 /* YFRemindManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFRemindManager.m; sourceTree = "<group>"; };
+		C8B0838B270F63C8F91B6F29B71E5591 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEAA47BA0BD17AE2F01AA86404C7EEB6 /* ZKMLToolsModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKMLToolsModule-prefix.pch"; sourceTree = "<group>"; };
+		CFB310A5B51BC953D6611C227AA6DC07 /* ZKMLToolsModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZKMLToolsModule.framework; path = ZKMLToolsModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D112202CFE600FB7EA8E33A215AFCEDD /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		D74FDFCD361546BC26F71E21D107960A /* YFDriverTaskInfoVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFDriverTaskInfoVO.m; sourceTree = "<group>"; };
+		D84CC9E7832B6D470B5F4868575174B9 /* Pods_ZKMLToolsModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZKMLToolsModule_Example.framework; path = "Pods-ZKMLToolsModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FF34A54132E6290BF483BF2CA09852 /* PersonInterfaceHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PersonInterfaceHeader.h; path = ZKMLPrefixHeaderModule/Classes/PersonInterfaceHeader.h; sourceTree = "<group>"; };
+		DB712DF43C788029D1887F4134B5B6E4 /* NotificationNameHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificationNameHeader.h; path = ZKMLPrefixHeaderModule/Classes/NotificationNameHeader.h; sourceTree = "<group>"; };
+		DCA9CAFFEE227DF0B968AEC77781C64B /* SGQRCodeGenerateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeGenerateManager.m; sourceTree = "<group>"; };
+		DE48D96247042EBD444A8C10E7A76D15 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		DF6E82386214256808B449A9FD73F287 /* YFOrderAddressDTOModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFOrderAddressDTOModel.h; sourceTree = "<group>"; };
+		E2B9E4B6AC0FAD1EA51DADC94452E1AF /* YFUpOrderAddressDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFUpOrderAddressDTOModel.m; sourceTree = "<group>"; };
+		E538324C53526EF0F2E24177D9A783FB /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		E8A99F97704EB47AE664F01CD695340C /* Pods-ZKMLToolsModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKMLToolsModule_Example-Info.plist"; sourceTree = "<group>"; };
+		E969AF60D906425DBED888006509550E /* YFOrderAddressDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFOrderAddressDTOModel.m; sourceTree = "<group>"; };
+		EEDF3FEF53E5DBAF1B3CD848E13E6971 /* ZKWeekdayFunc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZKWeekdayFunc.h; sourceTree = "<group>"; };
+		EEE8A5A69D54745A6F85E3441DAD0610 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		EF06D9BAEB242AD67A07760A276AB024 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		F0CC6F14952649F99CFA24C209496359 /* Pods-ZKMLToolsModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKMLToolsModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F20CD14D8CEC08A28C1CBE8CB9C980C5 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		F459939B6C31B7F8AA286959142479E6 /* Pods-ZKMLToolsModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKMLToolsModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F5D1816E164830C4B38B8244795FFA9C /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		F60CC1C7AD94362035EFCB08B1D81F37 /* YFDownOrderAddressDTOModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFDownOrderAddressDTOModel.m; sourceTree = "<group>"; };
+		F769FEC72F1681482E8E8FC8B3B51A4A /* YFAttributeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFAttributeManager.m; sourceTree = "<group>"; };
+		F7C098AEF6F0C1255C76F902F8F89504 /* RentInterfaceHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RentInterfaceHeader.h; path = ZKMLPrefixHeaderModule/Classes/RentInterfaceHeader.h; sourceTree = "<group>"; };
+		FBA1C8774F402638A45D5CE827C063B0 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F49ED2E3BEEED07B4EF48D1DBDCCB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E762B33F5B5D95A3BA70BB65C6C78F94 /* Foundation.framework in Frameworks */,
+				29EABF840B3EC57AE516DAD71810EECC /* JSONModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD22CF68CC01BA22C40221A94D44361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63472105BF5E42A970A44FC22F89DD42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87823A284FB6A67B3985190D8B1F1A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CFD5FFE11FF289D833C66FACA8A696 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886E050E05F79FD43F2409BED7E67F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DF77E53D2E837133265614EC8BEDA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ECC193EE815833AB2B6FC31783F1391 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E919A46A5FD16C7CD367FD6685FC5F2 /* JSONAPI.h */,
+				FBA1C8774F402638A45D5CE827C063B0 /* JSONAPI.m */,
+				B0C3BDB7F6D3C15BF34AB719F4EE3A14 /* JSONHTTPClient.h */,
+				92BE7BBCCDB2566082A13D8347DED687 /* JSONHTTPClient.m */,
+				10A5D26B8199AE0436B7AED2F7A37056 /* JSONKeyMapper.h */,
+				2170EB6A2D594A0823F01E32CE25506B /* JSONKeyMapper.m */,
+				8664EABD37C74B5206D45A53D219575E /* JSONModel.h */,
+				599D6F5727BBCB3683FE587B1F195A9A /* JSONModel.m */,
+				D112202CFE600FB7EA8E33A215AFCEDD /* JSONModel+networking.h */,
+				E538324C53526EF0F2E24177D9A783FB /* JSONModel+networking.m */,
+				8AAA5D2EAFF8AB8DE67E205F79DE28B3 /* JSONModelClassProperty.h */,
+				25C7D76237F7B9D21D16CD192F574B6D /* JSONModelClassProperty.m */,
+				57CB4BA2C25570B6044B080A4BDFB73C /* JSONModelError.h */,
+				F20CD14D8CEC08A28C1CBE8CB9C980C5 /* JSONModelError.m */,
+				EF06D9BAEB242AD67A07760A276AB024 /* JSONModelLib.h */,
+				F5D1816E164830C4B38B8244795FFA9C /* JSONValueTransformer.h */,
+				85FA1075B63B6165A500592804DF6C5D /* JSONValueTransformer.m */,
+				3FF7C53EBC507B592D15C57DFE11C8A0 /* Support Files */,
+			);
+			name = JSONModel;
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		15232F155C089339D289DF06394DF293 /* JsonModel类 */ = {
+			isa = PBXGroup;
+			children = (
+				3FE9A9D13F727F8F673AF45FEDBE396E /* YFApplyBaseDTOModel.h */,
+				BA914F974C67EFE41CFB8CF2CB4AAF73 /* YFApplyBaseDTOModel.m */,
+				4078750FA9DE7E678DEDD3FCDC5A9D55 /* YFApplyCarInfoDTOModel.h */,
+				08484B18019A022484BBEB7C001FC101 /* YFApplyCarInfoDTOModel.m */,
+				529856FE811C0E58D07188188CBE1F50 /* YFApplyDriverInfoDTOModel.h */,
+				AA6D5C46EC1B75E3C1D432438A4DDC79 /* YFApplyDriverInfoDTOModel.m */,
+				90E825D12200483B943A5AEA76D9C735 /* YFApplyUserDTOModel.h */,
+				9719EE7822EBF60F42EDB8D3FE9A7704 /* YFApplyUserDTOModel.m */,
+				5F60C70C48ABB6E8E45C36A7F16BE252 /* YFCarBaseDTOModel.h */,
+				594DAC0DA4673BE1FC25C6A4CCBC6641 /* YFCarBaseDTOModel.m */,
+				39FDF88D5854957BFEAC1684AB5052AA /* YFDownOrderAddressDTOModel.h */,
+				F60CC1C7AD94362035EFCB08B1D81F37 /* YFDownOrderAddressDTOModel.m */,
+				566DFDFFA40E3AD3B198E6291A7DB0AE /* YFDriverTaskInfoVO.h */,
+				D74FDFCD361546BC26F71E21D107960A /* YFDriverTaskInfoVO.m */,
+				DF6E82386214256808B449A9FD73F287 /* YFOrderAddressDTOModel.h */,
+				E969AF60D906425DBED888006509550E /* YFOrderAddressDTOModel.m */,
+				ADC8F16FB163FB070095A2D1ED52874B /* YFOrderBaseDTOModel.h */,
+				7D0FBBDE1CD3327D9BBF0D90ECC7BACE /* YFOrderBaseDTOModel.m */,
+				5509ACA9DF4AF9C530B3F5BE04B0D962 /* YFOrderCarDTOModel.h */,
+				995D39131401C836B7ABA92D8C2367DD /* YFOrderCarDTOModel.m */,
+				2F06A3C91BD2DDECBC4A71628F1EC2B8 /* YFUpOrderAddressDTOModel.h */,
+				E2B9E4B6AC0FAD1EA51DADC94452E1AF /* YFUpOrderAddressDTOModel.m */,
+				2A7B17C3B36B90A6EE72E5FC95C802A5 /* YFViaAddressDTOModel.h */,
+				16C68A82F57592DE67EF5A17786BE346 /* YFViaAddressDTOModel.m */,
+			);
+			name = "JsonModel类";
+			path = "JsonModel类";
+			sourceTree = "<group>";
+		};
+		1B1DEE4204BA99B31B8E07DBA0C4F46E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C8B0838B270F63C8F91B6F29B71E5591 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3C4C4EE9F745D369FD43A3EF293EE66D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8FAF20969D27CDD406CCD317B66EC689 /* LICENSE */,
+				2F1B264E94F8A6DFEFD89920EF2D09DD /* README.md */,
+				3302A41DD9B565F67B5A44244242E898 /* ZKMLToolsModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3FF7C53EBC507B592D15C57DFE11C8A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C581EF7350E2D2B270148AF69959E579 /* JSONModel.modulemap */,
+				C1DF5E220B00C7D3A410FBD48D221DE7 /* JSONModel.xcconfig */,
+				EEE8A5A69D54745A6F85E3441DAD0610 /* JSONModel-dummy.m */,
+				A5110E085A1C57C8D247715A8D469E48 /* JSONModel-Info.plist */,
+				DE48D96247042EBD444A8C10E7A76D15 /* JSONModel-prefix.pch */,
+				787FF4E1F4ACD865C47F047A1346B133 /* JSONModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		41FFFCB435E8816D62E26F697CAFA6B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC193EE815833AB2B6FC31783F1391 /* JSONModel */,
+				D6221C452E6628D1869CE06FF3F1EA7E /* ZKMLPrefixHeaderModule */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A0C24D2B2DDDBBDCDD9761EF023343A /* Pods-ZKMLToolsModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				488C92477B6F8F2C3E6C85A0EC40AE06 /* Pods-ZKMLToolsModule_Tests.modulemap */,
+				6E381A1EDFF74910786EA99CDF78AF47 /* Pods-ZKMLToolsModule_Tests-acknowledgements.markdown */,
+				03B4284E40E1EA84EAF111F0817E11D1 /* Pods-ZKMLToolsModule_Tests-acknowledgements.plist */,
+				C6B2C77CC3D7361BBF49C45F9CDA98A1 /* Pods-ZKMLToolsModule_Tests-dummy.m */,
+				A21AEC98D7637998F447EEAB201A9CE5 /* Pods-ZKMLToolsModule_Tests-Info.plist */,
+				A24EE191772868A47B9BF2B1896452F5 /* Pods-ZKMLToolsModule_Tests-umbrella.h */,
+				5577AB5E00D5E4F2DB466DB96912B5FC /* Pods-ZKMLToolsModule_Tests.debug.xcconfig */,
+				A0FA9A4743E84306FF927FCC5F44FD8E /* Pods-ZKMLToolsModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZKMLToolsModule_Tests";
+			path = "Target Support Files/Pods-ZKMLToolsModule_Tests";
+			sourceTree = "<group>";
+		};
+		5AE1C4659673F55070C1352B1770890A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58869DD444B5FA15F67B06FAF8FDF3EE /* ZKMLPrefixHeaderModule.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZKMLPrefixHeaderModule";
+			sourceTree = "<group>";
+		};
+		673E19625A49FBE3BDCDECF578FED89C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */,
+				D84CC9E7832B6D470B5F4868575174B9 /* Pods_ZKMLToolsModule_Example.framework */,
+				91F831A1A826BDADA4000D5D000FB7AD /* Pods_ZKMLToolsModule_Tests.framework */,
+				CFB310A5B51BC953D6611C227AA6DC07 /* ZKMLToolsModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8941227941EC3B36BD686967A8DDFD1A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				09788D0896C35E3136BAC55669FB3A70 /* AES_SecurityUtil.h */,
+				C14EB441B6290AFCF8E10BA65D01436C /* AES_SecurityUtil.m */,
+				91ADEDE1AE62255A203AE8465CDBAB50 /* BMDragCellCollectionView.h */,
+				68D19CFC7B197A73905D5205181AAD77 /* BMDragCellCollectionView.m */,
+				644688EB223897EB6DFDC932D48E89F8 /* ChangeTypeTool.h */,
+				AD91A36C256A03BBA3413718FAD3F0D1 /* ChangeTypeTool.m */,
+				95253AC2D69FC0DA6C5E153CFE0F0345 /* CountDownServer.h */,
+				84B34D55A306D005E3D529503130AA07 /* CountDownServer.m */,
+				65B225E9D38FE50111BF883795F0A261 /* GHConsole.h */,
+				39517450DF1C57F58CDF940F4B8133CC /* GHConsole.m */,
+				801A7960212E264D5BC028737C03F463 /* Global.h */,
+				1DC9E8B27F7482437D63E5B82C762BEF /* Global.m */,
+				6A8BFEB74C0AA2C94033357269395E6B /* GTMBase64.h */,
+				338D622CCDF1DC5FA103873DE81DF4C0 /* GTMBase64.m */,
+				0500EDDB5A5A909D87349B2214CF14AF /* GTMDefines.h */,
+				03EEE8F815834FDA1B466B1CE014BD2B /* HSUpdateApp.h */,
+				27CEA42D479A7B69146C794BCFF64FD7 /* HSUpdateApp.m */,
+				B5A80C56EBEE60D4000B47817CDEDB17 /* MBProgressHUD.h */,
+				930266BF034058C1D59BD1B262092A8A /* MBProgressHUD.m */,
+				7FEAB382F907D6CAE829428A1AEB9626 /* SGQRCodeGenerateManager.h */,
+				DCA9CAFFEE227DF0B968AEC77781C64B /* SGQRCodeGenerateManager.m */,
+				C4854639324200DBAE6350F3EE05EF1B /* YFAttributeManager.h */,
+				F769FEC72F1681482E8E8FC8B3B51A4A /* YFAttributeManager.m */,
+				BDDD8D48D1586C217C6238397E443E45 /* YFAudioTool.h */,
+				C210E7647838AC2DD2577DA090C567E6 /* YFAudioTool.m */,
+				62507B171DB42B9DC5E2078A2F09C30E /* YFRemindManager.h */,
+				C779DD336A9AC73DFEE946532D817B52 /* YFRemindManager.m */,
+				73CDDEB4915B12296BD315FD69558E7C /* YFTimeManager.h */,
+				73D15A851E7344DCA4FE1DF0F5F3AFE3 /* YFTimeManager.m */,
+				4FF0534BBE089C2CFA6FCC7F06043FD4 /* YFUtility.h */,
+				2200A6E9C6CA076C3EC8611C3B3890DE /* YFUtility.m */,
+				EEDF3FEF53E5DBAF1B3CD848E13E6971 /* ZKWeekdayFunc.h */,
+				55E5087E3CCAA187528ABA6026E4EC83 /* ZKWeekdayFunc.m */,
+				15232F155C089339D289DF06394DF293 /* JsonModel类 */,
+			);
+			name = Tools;
+			path = ZKMLToolsModule/Classes/Tools;
+			sourceTree = "<group>";
+		};
+		A38CDBAE313FCEC9F611A6C56FCF69AA /* Pods-ZKMLToolsModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8631B1769EA6A232E9F5B73F06D72C86 /* Pods-ZKMLToolsModule_Example.modulemap */,
+				273854340F79AF1C51F08E92BEA3A795 /* Pods-ZKMLToolsModule_Example-acknowledgements.markdown */,
+				F0CC6F14952649F99CFA24C209496359 /* Pods-ZKMLToolsModule_Example-acknowledgements.plist */,
+				052E77BF7DC78975E592A84C143F78B1 /* Pods-ZKMLToolsModule_Example-dummy.m */,
+				132E203E2105BFB190496B9F7146BEE9 /* Pods-ZKMLToolsModule_Example-frameworks.sh */,
+				E8A99F97704EB47AE664F01CD695340C /* Pods-ZKMLToolsModule_Example-Info.plist */,
+				C2FC5A1F6440B11ED1BAA4518449DD9C /* Pods-ZKMLToolsModule_Example-umbrella.h */,
+				F459939B6C31B7F8AA286959142479E6 /* Pods-ZKMLToolsModule_Example.debug.xcconfig */,
+				BE295CD9B2B47E30F0FA49E19F970CF3 /* Pods-ZKMLToolsModule_Example.release.xcconfig */,
+			);
+			name = "Pods-ZKMLToolsModule_Example";
+			path = "Target Support Files/Pods-ZKMLToolsModule_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F997BC88487150AFED46F9027ACC6BFD /* Development Pods */,
+				F832E877DBDAEC99E2DB67BA1BE58EFD /* Frameworks */,
+				41FFFCB435E8816D62E26F697CAFA6B3 /* Pods */,
+				673E19625A49FBE3BDCDECF578FED89C /* Products */,
+				DB419964655ED3D46BB4E9C7BC5A419A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6221C452E6628D1869CE06FF3F1EA7E /* ZKMLPrefixHeaderModule */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA5F2FDEA7A817E831BDB9165E3526 /* CommonPrefixHeader.h */,
+				6105FCD9FA18F9A635FD8FF588691085 /* Confingure.h */,
+				2523490488A4936575B51631587EB9C9 /* GongWuInterfaceHeader.h */,
+				5864B9EE5CCC689E06610B50F667B61F /* IPhoneX.h */,
+				DB712DF43C788029D1887F4134B5B6E4 /* NotificationNameHeader.h */,
+				D8FF34A54132E6290BF483BF2CA09852 /* PersonInterfaceHeader.h */,
+				F7C098AEF6F0C1255C76F902F8F89504 /* RentInterfaceHeader.h */,
+				42134494696D92E7517C51C43A94A4BC /* SuperviseInterfaceHeader.h */,
+				5AE1C4659673F55070C1352B1770890A /* Support Files */,
+			);
+			name = ZKMLPrefixHeaderModule;
+			path = ZKMLPrefixHeaderModule;
+			sourceTree = "<group>";
+		};
+		DACDB09DDAC89B65175299890B4A47E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				050734A69BD09884F9814535BA25E2A1 /* ZKMLToolsModule.modulemap */,
+				BBFC96AB590B54F7ED08C2870C486947 /* ZKMLToolsModule.xcconfig */,
+				6DC12CEEA9795C112833A11306EF0D43 /* ZKMLToolsModule-dummy.m */,
+				43FD53698B40D56DE0981B6BA60DBB48 /* ZKMLToolsModule-Info.plist */,
+				CEAA47BA0BD17AE2F01AA86404C7EEB6 /* ZKMLToolsModule-prefix.pch */,
+				7AB11EBACEC8993502531D643706C137 /* ZKMLToolsModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZKMLToolsModule";
+			sourceTree = "<group>";
+		};
+		DB419964655ED3D46BB4E9C7BC5A419A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A38CDBAE313FCEC9F611A6C56FCF69AA /* Pods-ZKMLToolsModule_Example */,
+				4A0C24D2B2DDDBBDCDD9761EF023343A /* Pods-ZKMLToolsModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F278A82D5C16D28884B8D19AFDBDAB2A /* ZKMLToolsModule */ = {
+			isa = PBXGroup;
+			children = (
+				BF131E23257489D932A66079C7C1E014 /* ReplaceMe.m */,
+				3C4C4EE9F745D369FD43A3EF293EE66D /* Pod */,
+				DACDB09DDAC89B65175299890B4A47E8 /* Support Files */,
+				8941227941EC3B36BD686967A8DDFD1A /* Tools */,
+			);
+			name = ZKMLToolsModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F832E877DBDAEC99E2DB67BA1BE58EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E792303AF6C20F6B2C7C7FE728D81 /* JSONModel.framework */,
+				1B1DEE4204BA99B31B8E07DBA0C4F46E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F997BC88487150AFED46F9027ACC6BFD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F278A82D5C16D28884B8D19AFDBDAB2A /* ZKMLToolsModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3524A60EAC499A5331332482E862C29C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B2C74604DEAD292C14BAF87877007B /* Pods-ZKMLToolsModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B36AC3E11039F239369A15E89BC7E70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A49CE8F36A5389B4D995880691BD88 /* AES_SecurityUtil.h in Headers */,
+				C3BB5805D6C0C60912DE977DF74B6009 /* BMDragCellCollectionView.h in Headers */,
+				55F9632493ABEEB0EE865649974BD95B /* ChangeTypeTool.h in Headers */,
+				812125F3AD4BFD421C555A286D1CFB9C /* CountDownServer.h in Headers */,
+				76BEC8D30A32B429067D22241EA9303C /* GHConsole.h in Headers */,
+				6A8790BA487061D9AE8F3518B6B8CBF8 /* Global.h in Headers */,
+				65E0EB983972C82271BF74FF69531FC0 /* GTMBase64.h in Headers */,
+				73AEAB40FA48842688424BCB621622C8 /* GTMDefines.h in Headers */,
+				44AF9949AA9446264A99BF00B12BF966 /* HSUpdateApp.h in Headers */,
+				B01B11588AA6325117933D9957421855 /* MBProgressHUD.h in Headers */,
+				763036F363711DB79712FDBBB72707E7 /* SGQRCodeGenerateManager.h in Headers */,
+				B645E91B6EC8C1EE323A77DD0785C430 /* YFApplyBaseDTOModel.h in Headers */,
+				21DBBC9C6B4F7D63AED187989F1FB2E1 /* YFApplyCarInfoDTOModel.h in Headers */,
+				6D4618B8A39D4E54D9929781BAFE2A9D /* YFApplyDriverInfoDTOModel.h in Headers */,
+				1535199543C0BA4DBF7CFB5D2C2A7703 /* YFApplyUserDTOModel.h in Headers */,
+				66E3CE5EE6B2E864B4059ECB80F00878 /* YFAttributeManager.h in Headers */,
+				7D32737B8798E2519E6E3A90AFCE37E7 /* YFAudioTool.h in Headers */,
+				D4C427DF283B856C0CA01F9E489C3A64 /* YFCarBaseDTOModel.h in Headers */,
+				42F28843BD225DDC9A02E6D42040E284 /* YFDownOrderAddressDTOModel.h in Headers */,
+				50507AAE8820D243FB0FE8B109EF1F75 /* YFDriverTaskInfoVO.h in Headers */,
+				2DE573922AFED33F4B1159E1867D15EE /* YFOrderAddressDTOModel.h in Headers */,
+				AE18DBB4DA5689A4EAB665913BE291DF /* YFOrderBaseDTOModel.h in Headers */,
+				4863089DD0C0604D7FF29CBCE4F97BBD /* YFOrderCarDTOModel.h in Headers */,
+				4D572AEE6A1EAF1B222F80E877ABC182 /* YFRemindManager.h in Headers */,
+				0557B180FC511841F73C790B494870A3 /* YFTimeManager.h in Headers */,
+				6A5AA15C119B40276D77F83CCF54218B /* YFUpOrderAddressDTOModel.h in Headers */,
+				888DEC1670B54DBD3990CE649B518BAA /* YFUtility.h in Headers */,
+				D2C0548F20F65BBE639F453F817DBE89 /* YFViaAddressDTOModel.h in Headers */,
+				CE7615DAD68A93F47E5D3EFBA64CD967 /* ZKMLToolsModule-umbrella.h in Headers */,
+				F58223165EAC211E595D986DE751CC4E /* ZKWeekdayFunc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648CA21FCC72467871F632DFC30DAA14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F1EE51BE7654A81BD757106ABAA570 /* Pods-ZKMLToolsModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10AE64316B9C31B3BB6170AF9933749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEA2F22B88CD78E671F25B60DB66ADA /* JSONAPI.h in Headers */,
+				1071D84B6431759A11FAEBAAE29E3F32 /* JSONHTTPClient.h in Headers */,
+				C7850AB3F7B5FDCA4F1F47F1EC205276 /* JSONKeyMapper.h in Headers */,
+				191126E8D5A1E26339D2B767EF3AE197 /* JSONModel+networking.h in Headers */,
+				DFF8D80125C062F6646E6EE798E6ABA3 /* JSONModel-umbrella.h in Headers */,
+				75C939C90205A780AB001C84A0B90C24 /* JSONModel.h in Headers */,
+				D358BCEB69D2E10B9BC6504C93D7D14C /* JSONModelClassProperty.h in Headers */,
+				02E2954BD351E7B167D8F60B13208DAF /* JSONModelError.h in Headers */,
+				C25BD96E691172D62B98B2F5F8D7F0C7 /* JSONModelLib.h in Headers */,
+				E3886BA871A93B03E984D8BD7823D947 /* JSONValueTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		039D3BE178F818D35BAE56C0125877CA /* Pods-ZKMLToolsModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D6341134A26C994218DC0A51E657C7 /* Build configuration list for PBXNativeTarget "Pods-ZKMLToolsModule_Example" */;
+			buildPhases = (
+				648CA21FCC72467871F632DFC30DAA14 /* Headers */,
+				6F02F7D39BE46CFE74290DE49B1ABF5F /* Sources */,
+				87823A284FB6A67B3985190D8B1F1A19 /* Frameworks */,
+				ACF3CC2213403E1105EA7E6CCB75CD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28A412243EDCE64B024BB792975F9FAE /* PBXTargetDependency */,
+				83B857186A4A50E9CD1E59C4193980E0 /* PBXTargetDependency */,
+				6EDC21E6F17628194BA1283A4C585842 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZKMLToolsModule_Example";
+			productName = "Pods-ZKMLToolsModule_Example";
+			productReference = D84CC9E7832B6D470B5F4868575174B9 /* Pods_ZKMLToolsModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32EE7658BEC00EAD9EEC4F7C086DAA15 /* ZKMLToolsModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543AB79C4866EAB90B38CD667BC7A73E /* Build configuration list for PBXNativeTarget "ZKMLToolsModule" */;
+			buildPhases = (
+				5B36AC3E11039F239369A15E89BC7E70 /* Headers */,
+				36B388D8E822D602F6AE7C2515FBBC70 /* Sources */,
+				0F49ED2E3BEEED07B4EF48D1DBDCCB6E /* Frameworks */,
+				EA9B5477C2AD8E0E629BC51731CB5DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA64B72EA9202318228B7981341CC2A8 /* PBXTargetDependency */,
+				D2CE93FFC5CE9D41094C01B4B5B1E630 /* PBXTargetDependency */,
+			);
+			name = ZKMLToolsModule;
+			productName = ZKMLToolsModule;
+			productReference = CFB310A5B51BC953D6611C227AA6DC07 /* ZKMLToolsModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D708827413D1FA3AE6E7CCD69354B1D2 /* Pods-ZKMLToolsModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55583D64291FA2C51B10D6A53DFB16E2 /* Build configuration list for PBXNativeTarget "Pods-ZKMLToolsModule_Tests" */;
+			buildPhases = (
+				3524A60EAC499A5331332482E862C29C /* Headers */,
+				917DE5523E938730998C67471B3AB8D8 /* Sources */,
+				6DD22CF68CC01BA22C40221A94D44361 /* Frameworks */,
+				C4907C93F3EB6C8634837352DE2F6427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5F3B9260A7A60EC29C06AAC55E8EBA /* PBXTargetDependency */,
+			);
+			name = "Pods-ZKMLToolsModule_Tests";
+			productName = "Pods-ZKMLToolsModule_Tests";
+			productReference = 91F831A1A826BDADA4000D5D000FB7AD /* Pods_ZKMLToolsModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864246C4794538189B6310F839B9CD50 /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				C10AE64316B9C31B3BB6170AF9933749 /* Headers */,
+				9110B95813C4D6328D3D0802138CFDE0 /* Sources */,
+				886E050E05F79FD43F2409BED7E67F73 /* Frameworks */,
+				33431436401EBC85BE0A907D9728DA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 673E19625A49FBE3BDCDECF578FED89C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */,
+				039D3BE178F818D35BAE56C0125877CA /* Pods-ZKMLToolsModule_Example */,
+				D708827413D1FA3AE6E7CCD69354B1D2 /* Pods-ZKMLToolsModule_Tests */,
+				A98D33D166773731B748CAA35E575EA9 /* ZKMLPrefixHeaderModule */,
+				32EE7658BEC00EAD9EEC4F7C086DAA15 /* ZKMLToolsModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33431436401EBC85BE0A907D9728DA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF3CC2213403E1105EA7E6CCB75CD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4907C93F3EB6C8634837352DE2F6427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B5477C2AD8E0E629BC51731CB5DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36B388D8E822D602F6AE7C2515FBBC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD8C91E8E7CAD92DA152B2573D85B50 /* AES_SecurityUtil.m in Sources */,
+				83A8BF1A0B216A19675827EA0315C1C5 /* BMDragCellCollectionView.m in Sources */,
+				3E0A57590A57E2CC07BD98B200DBB505 /* ChangeTypeTool.m in Sources */,
+				BE4A54D33D8A28FB6420601C675F3C67 /* CountDownServer.m in Sources */,
+				7FABAD0F7C09605966351F4BF500D889 /* GHConsole.m in Sources */,
+				2E4533725B524583C592F4577BA126DF /* Global.m in Sources */,
+				02E414813CAD555CA9BBEAC6C00A73FF /* GTMBase64.m in Sources */,
+				F95CCE1427C9F0616F3D6F94D1DF33AB /* HSUpdateApp.m in Sources */,
+				4007C1793F1E3B2F83CE7D6A6B67C8D8 /* MBProgressHUD.m in Sources */,
+				AD204D9D3B57EF8201AC1E98073E1119 /* ReplaceMe.m in Sources */,
+				902F5B7D2F0FF95D517DD287479B8254 /* SGQRCodeGenerateManager.m in Sources */,
+				BA0A7F03FEBAE896FEDC251936828192 /* YFApplyBaseDTOModel.m in Sources */,
+				FF85F6EE05FCF20F085F447D9E090934 /* YFApplyCarInfoDTOModel.m in Sources */,
+				B053DE2D40435BC7A9C73B6021ECE40F /* YFApplyDriverInfoDTOModel.m in Sources */,
+				68F42E22BCDAF250B0AC05944F489F7A /* YFApplyUserDTOModel.m in Sources */,
+				4578C560B2F506160A02DB33C80A4628 /* YFAttributeManager.m in Sources */,
+				F0A91F1C0618D6A95F14F7CF5B53F220 /* YFAudioTool.m in Sources */,
+				86E9CB19574A9A4DB01B761FC02D78C2 /* YFCarBaseDTOModel.m in Sources */,
+				2A52A81BE47DF80FDBBEC3F3B1A19DCB /* YFDownOrderAddressDTOModel.m in Sources */,
+				27095F34847B5549A001FC61A44F9DA9 /* YFDriverTaskInfoVO.m in Sources */,
+				03034D38BD96B5BB8E401745DB1A562D /* YFOrderAddressDTOModel.m in Sources */,
+				4AA1D89C8517BC23262512F1F6E9DAAB /* YFOrderBaseDTOModel.m in Sources */,
+				FB2DBE967AC09D42C619BA770358F7B7 /* YFOrderCarDTOModel.m in Sources */,
+				65FE60AA194AF58505CC8296B95802D0 /* YFRemindManager.m in Sources */,
+				2AA2726CB00254B808EED5137FB3DFAD /* YFTimeManager.m in Sources */,
+				2D59C15D4BAEE39624E7A904CC4F56E6 /* YFUpOrderAddressDTOModel.m in Sources */,
+				EF54209C7B8D5179292BE4DDD71A8243 /* YFUtility.m in Sources */,
+				6CD46E3DD3CE64457A221BCEE1BD34D4 /* YFViaAddressDTOModel.m in Sources */,
+				6A96759E75FB4443B56CB892364DF0A1 /* ZKMLToolsModule-dummy.m in Sources */,
+				66AD0825CD6A8DC31BD9647847157C2F /* ZKWeekdayFunc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F02F7D39BE46CFE74290DE49B1ABF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5D3DCAA82B7AD628A61791E7ED61B8 /* Pods-ZKMLToolsModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9110B95813C4D6328D3D0802138CFDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65CBBF120A2DD097498BFA38119D466 /* JSONAPI.m in Sources */,
+				B4C7BC969594EB3E9323674B7FF7C66E /* JSONHTTPClient.m in Sources */,
+				26A3D3037A05E7E99AFF098D11427775 /* JSONKeyMapper.m in Sources */,
+				CFD38BDDB48F8D35B9A858E957A933A2 /* JSONModel+networking.m in Sources */,
+				F442593E37B8F49398FDB1974EDF3FD6 /* JSONModel-dummy.m in Sources */,
+				6FCDE0D44543F4DABF90A88E056D8199 /* JSONModel.m in Sources */,
+				C64C8DE746D376EEA160794275302677 /* JSONModelClassProperty.m in Sources */,
+				A52DD788A5384665F425D6A2C7493AD0 /* JSONModelError.m in Sources */,
+				B0BA1C31A2A3AB25BC95A4B2DE0A7B5D /* JSONValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917DE5523E938730998C67471B3AB8D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42BB54C4E341A18B1CFF0E80DDE43E2 /* Pods-ZKMLToolsModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28A412243EDCE64B024BB792975F9FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = E77C2C80DAB372FDF94C482487DDD87A /* PBXContainerItemProxy */;
+		};
+		6EDC21E6F17628194BA1283A4C585842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKMLToolsModule;
+			target = 32EE7658BEC00EAD9EEC4F7C086DAA15 /* ZKMLToolsModule */;
+			targetProxy = 758D89F43F4E6DD8E0EC4CCF0A2A4EA1 /* PBXContainerItemProxy */;
+		};
+		83B857186A4A50E9CD1E59C4193980E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKMLPrefixHeaderModule;
+			target = A98D33D166773731B748CAA35E575EA9 /* ZKMLPrefixHeaderModule */;
+			targetProxy = A022FB24E1170EE1C4E1E36C75D8E1C8 /* PBXContainerItemProxy */;
+		};
+		D2CE93FFC5CE9D41094C01B4B5B1E630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKMLPrefixHeaderModule;
+			target = A98D33D166773731B748CAA35E575EA9 /* ZKMLPrefixHeaderModule */;
+			targetProxy = 0129DC0EA48C63DAACF0EF7832826658 /* PBXContainerItemProxy */;
+		};
+		EF5F3B9260A7A60EC29C06AAC55E8EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZKMLToolsModule_Example";
+			target = 039D3BE178F818D35BAE56C0125877CA /* Pods-ZKMLToolsModule_Example */;
+			targetProxy = DE892300859F71B339AB6F0CB6B5AFA0 /* PBXContainerItemProxy */;
+		};
+		FA64B72EA9202318228B7981341CC2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = 666C6A627C290246ED3D1C81FF7A2C87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000C172448E37161EECD896253E1B171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58869DD444B5FA15F67B06FAF8FDF3EE /* ZKMLPrefixHeaderModule.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		649CFF178B3206E6527857C700F1CA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58869DD444B5FA15F67B06FAF8FDF3EE /* ZKMLPrefixHeaderModule.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84BD1EE2A3F23E1DA8C26B1C0F9BBD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFC96AB590B54F7ED08C2870C486947 /* ZKMLToolsModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZKMLToolsModule/ZKMLToolsModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKMLToolsModule/ZKMLToolsModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKMLToolsModule/ZKMLToolsModule.modulemap";
+				PRODUCT_MODULE_NAME = ZKMLToolsModule;
+				PRODUCT_NAME = ZKMLToolsModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92BF5934EB89F8E17375AA12B8CBDFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0FA9A4743E84306FF927FCC5F44FD8E /* Pods-ZKMLToolsModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKMLToolsModule_Tests/Pods-ZKMLToolsModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKMLToolsModule_Tests/Pods-ZKMLToolsModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4F8CB4581EC771D13AD064CD46CB6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DF5E220B00C7D3A410FBD48D221DE7 /* JSONModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/JSONModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE0071646BACB0457BE1C5A9F4E1661A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFC96AB590B54F7ED08C2870C486947 /* ZKMLToolsModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZKMLToolsModule/ZKMLToolsModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKMLToolsModule/ZKMLToolsModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKMLToolsModule/ZKMLToolsModule.modulemap";
+				PRODUCT_MODULE_NAME = ZKMLToolsModule;
+				PRODUCT_NAME = ZKMLToolsModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1F36BA0D2EECDFCABB5D1F9723BC2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F459939B6C31B7F8AA286959142479E6 /* Pods-ZKMLToolsModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKMLToolsModule_Example/Pods-ZKMLToolsModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKMLToolsModule_Example/Pods-ZKMLToolsModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C64397DE28D238BE3A022AC765C8920E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5577AB5E00D5E4F2DB466DB96912B5FC /* Pods-ZKMLToolsModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKMLToolsModule_Tests/Pods-ZKMLToolsModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKMLToolsModule_Tests/Pods-ZKMLToolsModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9A3D570A2BC519ACBFE237ADBDA0602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DF5E220B00C7D3A410FBD48D221DE7 /* JSONModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/JSONModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E03389F3CCA07B3821E6B6E1F6779D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE295CD9B2B47E30F0FA49E19F970CF3 /* Pods-ZKMLToolsModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKMLToolsModule_Example/Pods-ZKMLToolsModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKMLToolsModule_Example/Pods-ZKMLToolsModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12D6341134A26C994218DC0A51E657C7 /* Build configuration list for PBXNativeTarget "Pods-ZKMLToolsModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F36BA0D2EECDFCABB5D1F9723BC2C7 /* Debug */,
+				E03389F3CCA07B3821E6B6E1F6779D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543AB79C4866EAB90B38CD667BC7A73E /* Build configuration list for PBXNativeTarget "ZKMLToolsModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BD1EE2A3F23E1DA8C26B1C0F9BBD85 /* Debug */,
+				BE0071646BACB0457BE1C5A9F4E1661A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55583D64291FA2C51B10D6A53DFB16E2 /* Build configuration list for PBXNativeTarget "Pods-ZKMLToolsModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64397DE28D238BE3A022AC765C8920E /* Debug */,
+				92BF5934EB89F8E17375AA12B8CBDFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864246C4794538189B6310F839B9CD50 /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F8CB4581EC771D13AD064CD46CB6AB /* Debug */,
+				C9A3D570A2BC519ACBFE237ADBDA0602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3650DFB5FEDC025FD9B92BCC9E02A36 /* Build configuration list for PBXAggregateTarget "ZKMLPrefixHeaderModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000C172448E37161EECD896253E1B171 /* Debug */,
+				649CFF178B3206E6527857C700F1CA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

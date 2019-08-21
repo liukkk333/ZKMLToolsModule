@@ -1,0 +1,35 @@
+{
+  "name": "ZKMLToolsModule",
+  "version": "0.1.0",
+  "summary": "ZKMLTools是一个工具类组件",
+  "description": "这是一个工具类组件,主要是用来放工具类.",
+  "homepage": "https://github.com/liukkk333/ZKMLToolsModule.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liukkk333": "liuk@izkml.com"
+  },
+  "source": {
+    "git": "https://github.com/liukkk333/ZKMLToolsModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZKMLToolsModule/Classes/**/*",
+  "prefix_header_contents": [
+    "#import \"JSONModel.h\"",
+    "#import \"Global.h\"",
+    "#import \"CommonPrefixHeader.h\""
+  ],
+  "dependencies": {
+    "JSONModel": [
+
+    ],
+    "ZKMLPrefixHeaderModule": [
+
+    ]
+  }
+}
